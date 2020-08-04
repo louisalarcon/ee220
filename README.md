@@ -1,2 +1,2 @@
-# ee220
-UPD EE220 SPICE and Python scripts
+# EE220
+UPD EE 220 (Analog Integrated Circuits) SPICE and Python scripts
