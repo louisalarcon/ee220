@@ -45,7 +45,7 @@ gm = [dydx(i, vgs) for i in ids]
     
 plt_cfg = {
         'grid_linestyle' : 'dotted',
-        'title' : r'NMOS Transconductance W=100$\mu$m L=45nm',
+        'title' : r'NMOS Transconductance W=1$\mu$m L=45nm',
         'xlabel' : r'$V_{GS}$ [mV]',
         'ylabel' : r'$g_m$ [mS]',
         'legend_loc' : 'lower right',
@@ -92,7 +92,7 @@ for k in range(len(dfile)):
 
 plt_cfg = {
         'grid_linestyle' : 'dotted',
-        'title' : r'NMOS Output Impedance W=100$\mu$m L=45nm',
+        'title' : r'NMOS Output Impedance W=1$\mu$m L=45nm',
         'xlabel' : r'$V_{DS}$ [mV]',
         'ylabel' : r'$r_o$ [k$\Omega$]',
         'legend_loc' : 'upper right',
@@ -122,7 +122,7 @@ plt.savefig('NMOS_ro_corners.png', dpi=600)
 
 plt_cfg = {
         'grid_linestyle' : 'dotted',
-        'title' : r'NMOS Output Impedance W=100$\mu$m L=45nm',
+        'title' : r'NMOS Output Impedance W=1$\mu$m L=45nm',
         'xlabel' : r'$V_{DS}$ [mV]',
         'ylabel' : r'$r_o$ [k$\Omega$]',
         'legend_loc' : 'lower right',
