@@ -36,7 +36,7 @@ for i, f in enumerate(dfile):
     
 plt_cfg = {
         'grid_linestyle' : 'dotted',
-        'title' : r'NMOS Transfer Characteristics W=100$\mu$m L=45nm',
+        'title' : r'NMOS Transfer Characteristics W=1$\mu$m L=45nm',
         'xlabel' : r'$V_{GS}$ [mV]',
         'ylabel' : r'$I_{D}$ [mA]',
         'legend_loc' : 'lower right',
@@ -55,7 +55,7 @@ plt.savefig('NMOS_transfer_corners.png', dpi=600)
 
 plt_cfg = {
         'grid_linestyle' : 'dotted',
-        'title' : r'NMOS Transfer Characteristics W=100$\mu$m L=45nm',
+        'title' : r'NMOS Transfer Characteristics W=1$\mu$m L=45nm',
         'xlabel' : r'$V_{GS}$ [mV]',
         'ylabel' : r'$I_{D}$ [mA]',
         'legend_loc' : 'lower right',
@@ -101,7 +101,7 @@ for k in range(len(dfile)):
 
 plt_cfg = {
         'grid_linestyle' : 'dotted',
-        'title' : r'NMOS Output Characteristics W=100$\mu$m L=45nm',
+        'title' : r'NMOS Output Characteristics W=1$\mu$m L=45nm',
         'xlabel' : r'$V_{DS}$ [mV]',
         'ylabel' : r'$I_{D}$ [mA]',
         'legend_loc' : 'upper left',
@@ -121,7 +121,7 @@ plt.savefig('NMOS_output_tt.png', dpi=600)
 
 plt_cfg = {
         'grid_linestyle' : 'dotted',
-        'title' : r'NMOS Output Characteristics W=100$\mu$m L=45nm',
+        'title' : r'NMOS Output Characteristics W=1$\mu$m L=45nm',
         'xlabel' : r'$V_{DS}$ [mV]',
         'ylabel' : r'$I_{D}$ [mA]',
         'legend_loc' : 'upper left',
